@@ -197,18 +197,6 @@ export default class Widget {
     const status = ticket.querySelector(this.constructor.statusSelector);
     const name = ticket.querySelector(this.constructor.nameSelector);
 
-    if (id) {
-      const param = {
-        data: {
-          method: 'deleteTicket',
-          id,
-        },
-        responseType: 'json',
-        method: 'POST',
-      };
-      runRequest(param);
-    }
-
     const params = {
       data: {
         method: 'createTicket',

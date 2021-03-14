@@ -93,17 +93,6 @@ export default class EditForm {
       method: 'POST',
     };
 
-    if (this.id) {
-      const param = {
-        data: {
-          method: 'deleteTicket',
-          id: this.id,
-        },
-        responseType: 'json',
-        method: 'POST',
-      };
-      runRequest(param);
-    }
     try {
       this.parentWidget.redraw(await runRequest(params));
     } catch (error) {
