@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ouktms4qcyvyyv5a?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/ahj-http-helpdesk-frontend)
+
+[GitHub Pages](https://evgeniy-27.github.io/ahj-http_HelpDesk-Frontend/)
+
 ### HelpDesk: Frontend
 
 #### Легенда
